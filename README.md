@@ -8,51 +8,34 @@ We will update the list of papers regularly to keep it up to date. :grin:
 
 # Menu
 
-- [Inaccurate Supervision in FL](#inaccurate-supervision-in-fl)
+- [Federated Learning with Inaccurate Supervision](#federated-learning-with-inaccurate-supervision)
   - [Federated Noisy Learning](#federated-noisy-learning)
-    - [Sample-Level](#sample-level)
-    - [Client-Level](#client-level)
-- [Incomplete Supervision in FL](#incomplete-supervision-in-fl)
+    - [Client-Level Methods](#client-level-methods)
+    - [Sample-Level Methods](#sample-level-methods)    
+- [Federated Learning with Incomplete Supervision](#federated-learning-with-incomplete-supervision)
   - [Federated Active Learning](#federated-active-learning)
-    - [Pool-Based](#pool-based)
-    - [Stream-Based](#stream-based)
+    - [Pool-Based Methods](#pool-based-methods)
+    - [Stream-Based Methods](#stream-based-methods)
   - [Federated Semi-Supervised Learning](#federated-semi-supervised-learning)
     - [Label at All Clients](#label-at-all-clients)
     - [Label at Partial Clients](#label-at-partial-clients)
     - [Label at Server](#label-at-server)
     - [Unlabeled at Server](#unlabeled-at-server)
-- [No Supervision in FL](#no-supervision-in-fl)
-  - [Federated Unsupervised Learning](#federated-unsupervised-learning)
-    - [Clustering-Based](#clustering-based)
-    - [Generative Methods](#generative-methods)
+- [Federated Learning with No Supervision](#federated-learning-with-no-supervision)
   - [Federated Self-Supervised Learning](#federated-self-supervised-learning)
     - [Contrastive Learning](#contrastive-learning)
+  - [Federated Unsupervised Learning](#federated-unsupervised-learning)
+    - [Clustering-Based Methods](#clustering-based-methods)
+    - [Generative Methods](#generative-methods)
+  
 
 ------
 
-# Inaccurate Supervision in FL
+# Federated Learning with Inaccurate Supervision
 
 ## Federated Noisy Learning
 
-### Sample-Level
-
-- [ IEEE Intelligent Systems-2022 ] Robust Federated Learning With Noisy Labels [[paper](https://ieeexplore.ieee.org/abstract/document/9713942)]
-
-- [ CIKM-2022 ] Towards Federated Learning against Noisy Labels via Local Self-Regularization [[paper](https://dl.acm.org/doi/pdf/10.1145/3511808.3557475)] [[code](https://github.com/Sprinter1999/FedLSR)]
-
-- [ ECAI-2023 ] FedCoop: Cooperative Federated Learning for Noisy Labels [[paper](https://ebooks.iospress.nl/doi/10.3233/FAIA230529)]
-
-- [ DASFAA-2023 ] A Static Bi-dimensional Sample Selection for Federated Learning with Label Noise [[paper](https://link.springer.com/chapter/10.1007/978-3-031-30637-2_49)]
-
-- [ AAAI-2024 ] FedFixer: Mitigating Heterogeneous Label Noise in Federated Learning [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29179)]
-
-- [ ICASSP-2024 ] Federated Learning with Instance-Dependent Noisy Label [[paper](https://ieeexplore.ieee.org/abstract/document/10447823)] [[code](https://github.com/TriStonesWang/FedBeat)]
-
-- [ AAAI-2024 ] FedDiv: Collaborative Noise Filtering for Federated Learning with Noisy Labels [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28095)] [[code](https://github.com/lijichang/FLNL-FedDiv)]
-
-- [ AAAI-2024 ] Federated Label-Noise Learning with Local Diversity Product Regularization [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29659)]
-
-### Client-Level
+### Client-Level Methods
 
 - [ IEEE TVT-2022 ] Client Selection for Federated Learning With Label Noise [[paper](https://ieeexplore.ieee.org/abstract/document/9632344)]
 
@@ -72,13 +55,31 @@ We will update the list of papers regularly to keep it up to date. :grin:
 
 - [ TMC-2024 ] Overcoming Noisy Labels and Non-IID Data in Edge Federated Learning [[paper](https://ieeexplore.ieee.org/document/10526454)]
 
+### Sample-Level Methods
+
+- [ IEEE Intelligent Systems-2022 ] Robust Federated Learning With Noisy Labels [[paper](https://ieeexplore.ieee.org/abstract/document/9713942)]
+
+- [ CIKM-2022 ] Towards Federated Learning against Noisy Labels via Local Self-Regularization [[paper](https://dl.acm.org/doi/pdf/10.1145/3511808.3557475)] [[code](https://github.com/Sprinter1999/FedLSR)]
+
+- [ ECAI-2023 ] FedCoop: Cooperative Federated Learning for Noisy Labels [[paper](https://ebooks.iospress.nl/doi/10.3233/FAIA230529)]
+
+- [ DASFAA-2023 ] A Static Bi-dimensional Sample Selection for Federated Learning with Label Noise [[paper](https://link.springer.com/chapter/10.1007/978-3-031-30637-2_49)]
+
+- [ AAAI-2024 ] FedFixer: Mitigating Heterogeneous Label Noise in Federated Learning [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29179)]
+
+- [ ICASSP-2024 ] Federated Learning with Instance-Dependent Noisy Label [[paper](https://ieeexplore.ieee.org/abstract/document/10447823)] [[code](https://github.com/TriStonesWang/FedBeat)]
+
+- [ AAAI-2024 ] FedDiv: Collaborative Noise Filtering for Federated Learning with Noisy Labels [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28095)] [[code](https://github.com/lijichang/FLNL-FedDiv)]
+
+- [ AAAI-2024 ] Federated Label-Noise Learning with Local Diversity Product Regularization [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29659)]
+
 ------
 
-# Incomplete Supervision in FL
+# Federated Learning with Incomplete Supervision
 
 ## Federated Active Learning
 
-### Pool-Based
+### Pool-Based Methods
 
 - [ IEEE Access-2020 ] Active Learning Based Federated Learning for Waste and Natural Disaster Image Classification [[paper](https://ieeexplore.ieee.org/abstract/document/9261337)]
 
@@ -92,7 +93,7 @@ We will update the list of papers regularly to keep it up to date. :grin:
 
 - [ CVPR-2024 ] Think Twice Before Selection: Federated Evidential Active Learning for Medical Image Analysis with Domain Shifts [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Think_Twice_Before_Selection_Federated_Evidential_Active_Learning_for_Medical_CVPR_2024_paper.pdf)] [[code](https://github.com/JiayiChen815/FEAL)]
 
-### Stream-Based
+### Stream-Based Methods
 
 - [ arXiv-2020 ] Combining Federated and Active Learning for Communication-Efficient Distributed Failure Prediction in Aeronautics [[paper](https://arxiv.org/pdf/2001.07504)]
 
@@ -170,23 +171,7 @@ We will update the list of papers regularly to keep it up to date. :grin:
 
 ------
 
-# No Supervision in FL
-
-## Federated Unsupervised Learning
-
-### Clustering-Based
-
-- [ ICML-2022 ] Orchestra: Unsupervised Federated Learning via Globally Consistent Clustering [[paper](https://proceedings.mlr.press/v162/lubana22a/lubana22a.pdf)] [[code](https://github.com/akhilmathurs/orchestra)]
-
-- [ arXiv-2024 ] Fair Federated Data Clustering through Personalization: Bridging the Gap between Diverse Data Distributions [[paper](https://arxiv.org/pdf/2407.04302)] [[code](https://github.com/P-FClus/p-FClus)]
-
-- [ ACM MM-2024 ] Heterogeneity-Aware Federated Deep Multi-View Clustering towards Diverse Feature Representations [[paper](https://dl.acm.org/doi/pdf/10.1145/3664647.3681302)] [[code](https://github.com/xiaorui-jiang/HFMVC)]
-
-### Generative Methods
-
-- [ arXiv-2023 ] UFed-GAN: A Secure Federated Learning Framework with Constrained Computation and Unlabeled Data [[paper](https://arxiv.org/pdf/2308.05870)]
-
-- [ arXiv-2023 ] PFL-GAN: When Client Heterogeneity Meets Generative Models in Personalized Federated Learning [[paper](https://arxiv.org/pdf/2308.12454)]
+# Federated Learning with No Supervision
 
 ## Federated Self-Supervised Learning
 
@@ -206,6 +191,28 @@ We will update the list of papers regularly to keep it up to date. :grin:
 
 - [ ICCV-2023 ] ProtoFL: Unsupervised Federated Learning via Prototypical Distillation [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kim_ProtoFL_Unsupervised_Federated_Learning_via_Prototypical_Distillation_ICCV_2023_paper.pdf)]
 
+- [ SDM-2024 ] UPFL: Unsupervised Personalized Federated Learning towards New Clients [[paper](https://epubs.siam.org/doi/abs/10.1137/1.9781611978032.97)]
+
 - [ CVPR-2024 ] Rethinking the Representation in Federated Unsupervised Learning with Non-IID Data [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Liao_Rethinking_the_Representation_in_Federated_Unsupervised_Learning_with_Non-IID_Data_CVPR_2024_paper.pdf)] [[code](https://github.com/XeniaLLL/FedU2)]
 
 - [ IEEE TCCN-2024 ] Unsupervised Federated Optimization at the Edge: D2D-Enabled Learning Without Labels [[paper](https://ieeexplore.ieee.org/abstract/document/10507170)]
+
+- [ IEEE TKDE-2024] Prototype Similarity Distillation for Communication-Efficient Federated Unsupervised Representation Learning [[paper](https://ieeexplore.ieee.org/document/10495206)]
+
+## Federated Unsupervised Learning
+
+### Clustering-Based Methods
+
+- [ ICML-2022 ] Orchestra: Unsupervised Federated Learning via Globally Consistent Clustering [[paper](https://proceedings.mlr.press/v162/lubana22a/lubana22a.pdf)] [[code](https://github.com/akhilmathurs/orchestra)]
+
+- [ arXiv-2024 ] Fair Federated Data Clustering through Personalization: Bridging the Gap between Diverse Data Distributions [[paper](https://arxiv.org/pdf/2407.04302)] [[code](https://github.com/P-FClus/p-FClus)]
+
+- [ ACM MM-2024 ] Heterogeneity-Aware Federated Deep Multi-View Clustering towards Diverse Feature Representations [[paper](https://dl.acm.org/doi/pdf/10.1145/3664647.3681302)] [[code](https://github.com/xiaorui-jiang/HFMVC)]
+
+### Generative Methods
+
+- [ arXiv-2023 ] UFed-GAN: A Secure Federated Learning Framework with Constrained Computation and Unlabeled Data [[paper](https://arxiv.org/pdf/2308.05870)]
+
+- [ arXiv-2023 ] PFL-GAN: When Client Heterogeneity Meets Generative Models in Personalized Federated Learning [[paper](https://arxiv.org/pdf/2308.12454)]
+
+
