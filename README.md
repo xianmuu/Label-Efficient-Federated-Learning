@@ -157,7 +157,7 @@ We will update the list of papers regularly to keep it up to date. :grin:
 
 - [ arXiv-2024 ] FedAnchor: Enhancing Federated Semi-Supervised Learning with Label Contrastive Loss for Unlabeled Clients [[paper](https://arxiv.org/pdf/2402.10191)]
 
-- [ NeurIPS-2024 ] (FL)$^2$: Overcoming Few Labels in Federated Semi-Supervised Learning [[paper](https://openreview.net/pdf?id=lflwtGE6Vf)] [[code](https://github.com/seungjoo-ai/FLFL-NeurIPS24)]
+- [ NeurIPS-2024 ] (FL)<sup>2</sup>: Overcoming Few Labels in Federated Semi-Supervised Learning [[paper](https://openreview.net/pdf?id=lflwtGE6Vf)] [[code](https://github.com/seungjoo-ai/FLFL-NeurIPS24)]
 
 ### Unlabeled at Server
 
