@@ -125,6 +125,8 @@ We will update the list of papers regularly to keep it up to date. :grin:
 
 - [ IJCAI-2024 ] Estimating before Debiasing: A Bayesian Approach to Detaching Prior Bias in Federated Semi-Supervised Learning [[paper](https://www.ijcai.org/proceedings/2024/0290.pdf)] [[code](https://github.com/GuogangZhu/FedDB)]
 
+- [ CVPR-2025 ] Mind the Gap: Confidence Discrepancy Can Guide Federated Semi-Supervised Learning Across Pseudo-Mismatch [[paper](https://arxiv.org/pdf/2503.13227)] [[code](https://github.com/Jay-Codeman/SAGE)]
+
 ### Label at Partial Clients
 
 - [ Medical Image Analysis-2021 ] Federated semi-Supervised learning for COVID region segmentation in chest CT using multi-national data from China, Italy, Japan [[paper](https://www.sciencedirect.com/science/article/pii/S1361841521000384)]
