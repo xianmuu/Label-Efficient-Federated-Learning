@@ -99,7 +99,7 @@ We will update the list of papers regularly to keep it up to date. :grin:
 
 - [ Personal and Ubiquitous Computing-2022 ] Semi-Supervised and personalized federated activity recognition based on active learning and label propagation [[paper](https://link.springer.com/content/pdf/10.1007/s00779-022-01688-8.pdf)]
 
-- [ TMC-2024 ] AffectFAL: Federated Active Affective Computing with Non-IID Data [[paper](https://ieeexplore.ieee.org/abstract/document/10266762)]
+- [ TMC-2024 ] FedAWR: An Interactive Federated Active Learning Framework for Air Writing Recognition [[paper](https://ieeexplore.ieee.org/abstract/document/10266762)]
 
 - [ AAAI-2025 ] Learn How to Query from Unlabeled Data Streams in Federated Learning [[paper](https://arxiv.org/pdf/2412.08138)] [[code](https://github.com/hiyuchang/leadq)]
 
